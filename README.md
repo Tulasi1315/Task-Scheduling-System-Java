@@ -23,4 +23,4 @@ A Java-based task scheduling system that uses Priority Queues and HashMaps to ma
 1. Make sure you have **Java JDK** installed.  
 2. Compile the program:
    ```bash
-   javac TaskSchedulerSystem.java
+   javac Task_scheduler.java
