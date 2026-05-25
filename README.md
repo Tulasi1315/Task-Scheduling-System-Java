@@ -1,26 +1,31 @@
-# Task Scheduling System
+# Advanced Task Scheduler System
 
 ## Description
-A Java-based task scheduling system that uses Priority Queues and HashMaps to manage task execution efficiently. Tasks are scheduled based on priority, with higher priority tasks executed first. The system demonstrates modular design and strengthens understanding of core data structures and algorithms (DSA).
+A Java-based task scheduling system that manages tasks using Priority Queues and HashMaps for efficient execution and tracking. The system supports priority-based scheduling, task search, update, deletion, and deadline management functionalities while demonstrating object-oriented programming and core data structures concepts.
 
 ## Features
-- Add tasks with custom priorities
-- View scheduled tasks in priority order
-- Execute tasks based on priority
-- Uses PriorityQueue for execution management
-- Uses HashMap to store tasks by ID
-- Console-based menu interface
-- Modular design with separate Task class
+- Add tasks with custom priorities and deadlines
+- Execute highest priority tasks first
+- Search tasks using Task ID
+- Update task priority dynamically
+- Delete tasks from scheduler
+- Track task completion status
+- Uses PriorityQueue for scheduling management
+- Uses HashMap for efficient task retrieval
+- Console-based interactive menu system
+- Modular object-oriented design
 
 ## Technologies Used
 - Java
 - PriorityQueue
 - HashMap
-- Console-based interface
+- Object-Oriented Programming (OOP)
+- Console-based Interface
 
 ## How to Run
 
-1. Make sure you have **Java JDK** installed.  
+1. Make sure Java JDK is installed.
+
 2. Compile the program:
-   ```bash
-   javac Task_scheduler.java
+```bash
+javac TaskScheduler.java
